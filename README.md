@@ -1,28 +1,109 @@
-# Convert Template
+# Convert
 
-Projeto desenvolvido com o objetivo de praticar a construção de interfaces web e a organização de um template reutilizável para aplicações front-end.
+Conversor de moedas desenvolvido com **HTML, CSS e JavaScript**, criado para praticar manipulação do DOM, formulários, eventos e lógica de conversão de valores no navegador.
 
-## 📌 Sobre o projeto
+## Preview
 
-O **Convert Template** é um projeto de estudo voltado para a criação de uma interface simples, organizada e reutilizável. A proposta é estruturar componentes, estilos e arquivos de forma clara, facilitando futuras adaptações e melhorias.
+![Preview do Convert](https://image.thum.io/get/width/1200/https://albcarlosrodrigues.github.io/convert-template/)
 
-Este projeto pode servir como base para páginas estáticas, landing pages, pequenos sistemas visuais ou exercícios de front-end.
+## Sobre o projeto
 
-## 🚀 Tecnologias utilizadas
+O **Convert** é uma aplicação web simples para conversão de moedas estrangeiras para Real Brasileiro.
+
+O usuário informa um valor, seleciona a moeda desejada e a aplicação realiza a conversão diretamente no navegador.
+
+Atualmente estão disponíveis:
+
+- Dólar Americano — USD
+- Euro — EUR
+- Libra Esterlina — GBP
+
+A interface foi desenvolvida com foco em simplicidade e facilidade de uso.
+
+## Tecnologias utilizadas
 
 - HTML5
 - CSS3
 - JavaScript
+- Google Fonts
+- Git
+- GitHub
+- GitHub Pages
 
-> Caso o projeto utilize React, Vite, TypeScript ou outra tecnologia, atualize esta seção conforme a estrutura real do repositório.
+## Funcionalidades
 
-## 📁 Estrutura do projeto
+- Entrada de valores para conversão
+- Seleção da moeda
+- Conversão para Real Brasileiro
+- Exibição da cotação utilizada
+- Formatação do resultado em reais
+- Validação do formulário
+- Interface responsiva
+- Manipulação do DOM com JavaScript
+
+## Estrutura do projeto
+
+```text
+convert-template/
+│
+├── img/
+│   ├── bg.png
+│   └── logo.svg
+│
+├── index.html
+├── script.js
+├── styles.css
+└── README.md
+```
+
+## Como executar
+
+Clone o repositório:
 
 ```bash
-convert-template/
-├── index.html
-├── src/
-│   ├── styles/
-│   ├── scripts/
-│   └── assets/
-└── README.md
+git clone https://github.com/albCarlosRodrigues/convert-template.git
+```
+
+Entre na pasta do projeto:
+
+```bash
+cd convert-template
+```
+
+Depois abra o arquivo:
+
+```text
+index.html
+```
+
+no navegador.
+
+Também é possível utilizar a extensão **Live Server** no Visual Studio Code.
+
+## Acessar o projeto
+
+O projeto pode ser acessado através do GitHub Pages:
+
+https://albcarlosrodrigues.github.io/convert-template/
+
+## Conceitos praticados
+
+Durante o desenvolvimento deste projeto foram trabalhados conceitos como:
+
+- Estruturação de páginas com HTML
+- Estilização com CSS
+- Formulários HTML
+- Eventos em JavaScript
+- Manipulação do DOM
+- Conversão de valores
+- Template Strings
+- Validação de entrada
+- Formatação de moeda
+- Organização de arquivos front-end
+
+## Autor
+
+Desenvolvido por **Carlos Alberto**.
+
+GitHub:  
+https://github.com/albCarlosRodrigues
